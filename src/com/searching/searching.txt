@@ -1,0 +1,6 @@
+
+find missing no in a range of 1 to n.
+
+1-> using summation rule.(n*(n+1)/2 - sum of all no)
+2-> sorting and iterate. || Hashing
+3-> xor xor of 1 to n element with array element.

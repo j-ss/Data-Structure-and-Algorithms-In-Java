@@ -1,0 +1,14 @@
+how to handle collision in hash function--
+
+one way is linear chaining. here if two same hash key is generated then we assign them in linked list
+worst case for searching is Big o n.Recently java use self BST so searching is O(logn)
+Another is open addressing. here we make an array of size of element and if
+collision occur then insert element at next empty place.
+in open addressing make sure we have good hash function.Other wise there is lot of searching happen.
+
+self balancing binary search tree have log(n) time complexity for all operation.
+treeset and treemap in java use it.
+
+working of hashing its similar to array.
+
+

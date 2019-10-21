@@ -1,0 +1,10 @@
+doubly linked list perform insert or delete in O(1) time where in singly its not possible.
+
+circular linked list is used in stack queue and in computer resource allocation.
+
+skip list they are alternate of binary search tree.
+
+here we perform all operation in O(logn) time as in BST but BST require more overhead of
+balancing and memory.Its require only O(n) space.
+
+skip list are divided into levels. its ordered.

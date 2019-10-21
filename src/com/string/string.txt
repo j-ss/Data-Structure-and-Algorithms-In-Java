@@ -1,0 +1,17 @@
+pattern searching algo
+
+find all occurrence of a pattern in a string
+
+use brute force O(n*(n-m))
+rabin karp algo O(n*(n-m)) worst case
+kmp algo(pre process pattern) O(n)
+
+there is some algo which preprocessed test O(m) eg suffix tree where test is fix
+
+check two string are rotation of each other or not(concat one string and check second string as substring in it)w
+
+reverse word in a string
+
+smallest window in a string containing all character of string
+
+trie data structure

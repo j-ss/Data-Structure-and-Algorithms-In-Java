@@ -1,0 +1,11 @@
+histogram have interval but bar don't.
+
+histogram problem is solved in O(n^2) by brute force
+O(nlogn) by divide and conqure
+O(n) by stack.
+
+Add to stack if current value is bigger or equal o top of stack.otherwise keep removinf from stack untill smaller or equal
+to current is not found.
+calculate area every time when we remove from stack.
+area=inputarray[top]*i;  height of min bar*right
+area=inputarray[top]*(i-stack top-1)  height of min bar (right most smaller element-left-1)

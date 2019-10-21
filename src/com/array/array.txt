@@ -1,0 +1,6 @@
+in array insertion is happen in o(1) time. but when array is full and then we insert
+then one operation is o(n) time . on average insertion is happen in o(1) time.
+
+in middle insertion and deletion is happen in o(n) time.
+
+

@@ -1,0 +1,27 @@
+
+skew tree a tree where a node have only one child.
+
+binary tree a tree where each node one , two or zero child.Empty tree is also valid binary tree.
+
+full binary tree where each node have exact two child and all leaf node are same level.
+
+complete binary tree a tree where all leaf node are at h or h-1 level in a seq from left two right.
+
+No of node at level h = 2^h
+
+Tree is traversal
+
+preorder(simplest)
+postorder
+inorder
+level order based on BFS   above 3 are dfs based
+
+at root level hight is start from 0.
+
+treeset and treemap are using self balanced binary tree.
+
+Diameter of tree is maximum no of edges bw two point. a simple soln is leftheight+rightheight but not work in all case
+
+if we have more search operation then use avl because all search operation
+happen in logn time.avl have at most 1 node diff in height
+
