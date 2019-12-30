@@ -1,0 +1,33 @@
+In heap
+
+Root node has minimum value from its desendator.
+It is a complete binary tree.
+
+Get minimum is O(1)
+Build heap is O(n) but look like O(logn)
+All other operation are O(logn)
+
+In Java priority queue use min heap.
+
+Diff bw min heap and self balanced tree.
+
+self balancing tree perfrom all operation in O(logn)
+
+heap is cache friendly.
+Complete binary tree .where self balancing tree use red black tree which may or may not complete binary tree.
+heap use array so random access.
+
+
+Questions--
+Build an heap from unsorted array.
+Given an almost sorted array sort that array. use min heap(priority queue of k+1 size)
+find k largest element in an unsorted array. make a max heap and pop k element.O(n+klogn)
+or make a min heap of first k element and compare the root with remaining element if root is smaller then swap else do nothing.
+k+(n-k)logk
+
+merge k sorted array
+
+use divide and conqure if all array have same size
+use min heap also
+
+find median of stream of data use max heap

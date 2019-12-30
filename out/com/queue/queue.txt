@@ -1,0 +1,1 @@
+queue is implemented by array and linked list.

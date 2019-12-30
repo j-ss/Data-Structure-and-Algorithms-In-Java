@@ -1,5 +1,8 @@
 package com.array;
 
+/*
+* Equlibirium point where sun of left and right is equal
+* */
 public class FindEquilibiriumPoint {
 
     //brute force

@@ -1,0 +1,11 @@
+classification of sorting algo--
+
+based on no of swap
+
+based on no of comparision
+
+based on memory usage in place or not
+
+based on stability
+
+are they internal sort or external sort
